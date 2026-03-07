@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets (ne jamais committer)
+.env
+*.env
+secrets.json
+
+# Données de test (ne pas versionner les fichiers CSV/Excel réels)
+tests/data/*.csv
+tests/data/*.xlsx
+tests/data/*.xls
+tests/data/*.ods
+!tests/data/.gitkeep
+
+# Stub local core/ (généré par les scripts si Prométhée n'est pas installé)
+# Ne pas committer le stub — il est généré automatiquement
+core/
