@@ -1,6 +1,6 @@
 # Prométhée — Bibliothèque d'outils
 
-Dépôt public des **outils** de [Prométhée](https://github.com/votre-org/promethee), l'assistant IA desktop.
+Dépôt public des **outils** de [Prométhée](https://github.com/Ktulu-Analog/promethee), l'assistant IA desktop.
 
 Les outils sont indépendants du cœur de l'application : ils peuvent être développés, testés, partagés et intégrés sans toucher au moteur principal.
 
