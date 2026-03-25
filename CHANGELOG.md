@@ -6,6 +6,27 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ---
 
+## [1.2.0] — 2026-03-25
+
+### Ajouts — Physique-Chimie
+
+**Nouveaux modules (6) :**
+
+- `chemistry_tools` (1) : `search_chemical_compound` — Recherche de molécules sur PubChem
+- `physics_tools` (2) : `get_physical_constant`, `convert_units` — Constantes CODATA/NIST et conversion d'unités
+- `curriculum_tools` (1) : `get_curriculum_guidelines` — Programmes Eduscol via RAG ou recherche locale
+- `lms_tools` (1) : `export_moodle_xml` — Export QCM Moodle XML pour ENT/Pronote
+- `web_search_tools` (3) : `web_search`, `web_search_news`, `web_search_engine` — Recherche web DDG/SearXNG
+- `tool_maker_tools` (1) : `create_skill` — Auto-développement et correction d'outils
+
+**Total : 216 outils répartis dans 21 modules.**
+
+### Documentation
+
+- Ajout de `docs/DEPENDENCIES.md` : Liste complète des dépendances par module
+
+---
+
 ## [1.1.0] — 2026-03-07
 
 ### Ajouts — `data_file_tools`

@@ -62,9 +62,15 @@ def mon_outil(param1: str, param2: int = 10) -> dict:
 | [sql_tools.py](tools/sql_tools.py) | 🗄️ SQL | 9 | `sql_connect` `sql_disconnect` `sql_list_connections` `sql_list_tables` `sql_describe` `sql_query` `sql_execute` `sql_explain` `sql_export_csv` |
 | [system_tools.py](tools/system_tools.py) | 💻 Système | 20 | `read_file` `write_file` `tail_file` `head_file` `find_and_replace` `list_files` `tree_view` `search_files` `copy_file` `move_file` `delete_file` `create_directory` `get_file_info` `count_lines` `compress_files` `extract_archive` `diff_files` `batch_rename` `batch_delete` |
 | [thunderbird_tools.py](tools/thunderbird_tools.py) | 📧 Thunderbird | 12 | `tb_list_mails` `tb_search_mails` `tb_read_mail` `tb_mark_mail` `tb_move_mail` `tb_create_draft` `tb_agenda_upcoming` `tb_agenda_search` `tb_todo_list` `tb_agenda_create` `tb_agenda_update` `tb_agenda_delete` |
+| [web_search_tools.py](tools/web_search_tools.py) | 🔍 Recherche Web | 3 | `web_search` `web_search_news` `web_search_engine` |
 | [web_tools.py](tools/web_tools.py) | 🌐 Web | 10 | `web_search` `web_search_news` `web_search_engine` `web_fetch` `web_screenshot` `web_extract` `web_links` `web_tables` `web_rss` `web_download_file` |
+| [chemistry_tools.py](tools/chemistry_tools.py) | 🧪 Chimie (PubChem) | 1 | `search_chemical_compound` |
+| [physics_tools.py](tools/physics_tools.py) | 🧲 Physique (CODATA/NIST) | 2 | `get_physical_constant` `convert_units` |
+| [curriculum_tools.py](tools/curriculum_tools.py) | 🎒 Programmes (Eduscol) | 1 | `get_curriculum_guidelines` |
+| [lms_tools.py](tools/lms_tools.py) | 🎓 Export LMS (Moodle) | 1 | `export_moodle_xml` |
+| [tool_maker_tools.py](tools/tool_maker_tools.py) | 🛠️ Génie Logiciel | 1 | `create_skill` |
 
-**Total : 207 outils répartis dans 15 modules.**
+**Total : 216 outils répartis dans 21 modules.**
 
 ---
 
@@ -79,6 +85,8 @@ def register_all() -> None:
 ```
 
 C'est tout. Le décorateur `@tool` s'occupe de l'enregistrement automatique au moment de l'import.
+
+**Dépendances :** Certains modules nécessitent des dépendances externes. Consultez [`docs/DEPENDENCIES.md`](docs/DEPENDENCIES.md) pour la liste complète des dépendances par module.
 
 ---
 
